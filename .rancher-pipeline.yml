@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: hello-docker
+      tag: gochiba/hello-docker
       pushRemote: true
       registry: index.docker.io
 - name: Deploy
